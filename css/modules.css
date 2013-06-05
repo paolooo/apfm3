@@ -1,0 +1,18 @@
+.icon{display:block;position:relative;outline:none;color:#919191;}
+.icon .before,.icon .after{content:"";position:absolute;left:0;border:solid transparent;background:transparent;line-height:0;height:0}
+.icon.play{width:20px;height:22px;}
+.icon.play .before{border-width:11px 20px;border-left-color:#919191}
+.icon.phone{width:3px;height:7px;}
+.icon.phone .before{width:3px;height:7px;border:solid;border-width:1px 1px 2px;border-color:#9e9e9e #e9e9e9}
+
+.playlist ul{list-style-type:none;float:left;clear:both;width:100%;}
+.playlist ul li{border:1px solid #ddd;background:#fff;float:left;width:100%;clear:both;min-height:90px;margin-bottom:8px;clear:both;position:relative;}
+.playlist ul li .thumb{float:left;margin-right:5px;height:90px;}
+.playlist ul li .thumb img{float:left}
+.playlist ul li .episode{float:left;padding:8px 76px 8px 95px;margin-top:-90px;clear:both;}
+.playlist ul li .episode a{height:40px;overflow:hidden;text-overflow:ellipsis;display:table-cell;vertical-align:bottom;color:#333;text-decoration:none;font-size:1em;line-height:120%}
+.playlist ul li .episode span{color:#a8a8a8;font-size:.75em}
+.playlist ul li .episode .duration{color:#b6b6b6;font-size:.84em;margin-top:5px}
+.playlist ul li .control{float:right;text-align:center;padding:10px 20px;width:30px;border-left:1px solid #f0f0f0;height:15px;margin-top:22px;}
+.playlist ul li .control .icon.play{margin-top:-10px;left:5px}
+.playlist ul li .control .icon.phone{margin-top:8px;display:block;width:100%;padding-left:5px;font-size:.7em;color:#979797}
